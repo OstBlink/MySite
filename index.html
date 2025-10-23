@@ -1,54 +1,147 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Огнестрельное оружие</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Огнестрельное оружие</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-        <a href = #> Главная</a>
-        <a href = weapons.html> Список огнестрельного оружия</a>
+  <!-- Верхняя шапка -->
+  <div class="topbar">
+    <div class="wrap">
+      <div class="logo">Оружие всего мира!</div>
 
-<br>
+      <nav class="mainnav" aria-label="Главное меню">
+        <a href="#">Главная</a>
+        <a href="weapons.html">Список огнестрельного оружия</a>
+      </nav>
 
-    
-        <a href="ak47.html"><img src = assets/ak47.jpg width = 250 alt =" "></a>
-        <img src = assets/deagle.jpg width = 250 alt =" ">
-        <img src = assets/m1g.jpg width = 250 alt =" ">
-        <img src = assets/mp40.jpg width = 250 alt =" ">
-    
-      
-<hr>
-<h3>Оружие</h3>
+      <div class="search" role="search">
+        <input type="text" placeholder="Поиск по сайту">
+        <button>Найти</button>
+      </div>
+    </div>
+  </div>
 
-<p>
-    <a href="ak47.html"></a><img src = assets/ak47.jpg width = 400 align = left alt =" "><b>Автомат АК-47 — советский штурмовой автомат, разработанный Михаилом Калашниковым в конце 1940-х годов.</b><br> Газоотводный, с возможностью автоматического и одиночного огня, использует патрон 7,62×39 мм. Известен простой и прочной конструкцией, надёжностью в тяжёлых условиях и лёгкостью обслуживания. Широко распространён по всему миру и стал одним из самых узнаваемых образцов стрелкового оружия.   
+  <main class="container">
+    <section class="hero-grid" aria-label="Хиро">
+      <div class="hero-large">
+        <img src="assets/main_banner.jpg" alt="Баннер">
+      </div>
 
-</p>
+      <aside class="hero-side">
+        <div class="hero-box">
+          <img src="assets/AXMC.jpg" alt="Правый верхний">
+        </div>
+        <div class="hero-box alt">
+          <img src="assets/1911.jpg" alt="Правый нижний">
+        </div>
+      </aside>
+    </section>
 
+        <section class="icons-row" aria-label="Короткие карточки">
+      <div class="icon-card">
+        <div class="icon-circle c1">
+          <img src="assets/ak47.jpg" alt="АК-47">
+        </div>
+        <div class="icon-title">AK-47</div>
+        <div class="icon-sub">"Бессмертный"</div>
+        <a class="btn-small" href="ak47.html">Подробнее»</a>
+      </div>
 
-<p>
-   <img src = assets/deagle.jpg width = 400 align = left alt =" "><b>Desert Eagle — крупный полуавтоматический пистолет, разработанный для мощных патронов (.50 AE, .44 Magnum и др.).</b><br> Отличается газоотводной схемой с поворотным затвором, что нетипично для пистолетов, и заметной массой из-за мощного боеприпаса. Часто встречается в видео- и кинематографе благодаря эффектному виду и высокой останавливающей силе, но не считается удобным для повседневного ношения.
+      <div class="icon-card">
+        <div class="icon-circle c2">
+          <img src="assets/deagle.jpg" alt="Desert Eagle">
+        </div>
+        <div class="icon-title">Desert Eagle</div>
+        <div class="icon-sub">"Ручная пушка"</div>
+        <a class="btn-small" href="#">Подробнее»</a>
+      </div>
 
-</p>
+      <div class="icon-card">
+        <div class="icon-circle c3">
+          <img src="assets/m1g.jpg" alt="M1 Garand">
+        </div>
+        <div class="icon-title">M1 Garand</div>
+        <div class="icon-sub">"*Дзынь!*"</div>
+        <a class="btn-small" href="#">Подробнее»</a>
+      </div>
 
-<p>
-   <img src = assets/m1g.jpg width = 400 align = left alt =" "><b>M1 Garand — американская полуавтоматическая винтовка, принятая на вооружение в конце 1930-х — начала 1940-х и широко использовавшаяся во Второй мировой и Корейской войнах.</b><br> Заружается восьмизарядным «эн-блок» клипом и стреляет патроном .30-06 Springfield; известна надёжностью и хорошей точностью при дальних стрельбах. Часто рассматривается как одна из ключевых конструкций, давшая преимущество темпом стрельбы по сравнению с винтовками с ручной перезарядкой.
+      <div class="icon-card">
+        <div class="icon-circle c4">
+          <img src="assets/mp40.jpg" alt="MP40">
+        </div>
+        <div class="icon-title">MP40</div>
+        <div class="icon-sub">"ПТСД деда"</div>
+        <a class="btn-small" href="#">Подробнее»</a>
+      </div>
 
-</p>
+      <div class="icon-card">
+        <div class="icon-circle c5">
+          <img src="assets/1911.jpg" alt="Colt M1911">
+        </div>
+        <div class="icon-title">Colt M1911</div>
+        <div class="icon-sub">"Америка в каждом выстреле"</div>
+        <a class="btn-small" href="#">Подробнее»</a>
+      </div>
 
+      <div class="icon-card">
+        <div class="icon-circle c6">
+          <img src="assets/sks.jpg" alt="SKS">
+        </div>
+        <div class="icon-title">СКС</div>
+        <div class="icon-sub">"Русский Гаранд"</div>
+        <a class="btn-small" href="#">Подробнее»</a>
+      </div>
+    </section>
 
-<p>
-   <img src = assets/mp40.jpg width = 400 align = left alt =" "><b>MP40 — немецкий пистолет-пулемёт времён Второй мировой войны, разработанный по схеме отрывного затвора с открытым затвором и использующий патрон 9×19 мм Парабеллум.</b><br> Изготовлен преимущественно из штампованных деталей и предназначался для ближнего боя и действий экипажей; имеет складной приклад и простую эргономику. Ценился за простоту производства и надёжность в полевых условиях.
+    <hr class="sep">
 
-</p>
-    
-<hr>
-<p>
+    <section class="cards">
+      <article class="card">
+        <div class="media"><img src="assets/ak47.jpg" alt="АК-47"></div>
+        <div class="card-body">
+          <h3>Автомат АК-47</h3>
+          <p> Автомат АК-47 — советский штурмовой автомат, разработанный Михаилом Калашниковым в конце 1940-х годов. Газоотводный, с возможностью автоматического и одиночного огня, использует патрон 7,62×39 мм. Известен простой и прочной конструкцией, надёжностью в тяжёлых условиях и лёгкостью обслуживания.</p>
+          <a class="read" href="ak47.html">Подробнее»</a>
+        </div>
+      </article>
 
-        Щуров Денис, группа 2
-   
-</p>
+      <article class="card" style="flex-direction:row-reverse;">
+        <div class="media"><img src="assets/deagle.jpg" alt="Desert Eagle"></div>
+        <div class="card-body">
+          <h3>Desert Eagle</h3>
+          <p>Desert Eagle — крупный полуавтоматический пистолет, разработанный для мощных патронов (.50 AE, .44 Magnum и др.).Отличается газоотводной схемой с поворотным затвором, что нетипично для пистолетов, и заметной массой из-за мощного боеприпаса. Часто встречается в видео- и кинематографе благодаря эффектному виду и высокой останавливающей силе, но не считается удобным для повседневного ношения.</p>
+          <a class="read" href="#">Подробнее»</a>
+        </div>
+      </article>
+
+      <div class="two-col">
+        <article class="card">
+          <div class="media"><img src="assets/m1g.jpg" alt="M1 Garand"></div>
+          <div class="card-body">
+            <h3>M1 Garand</h3>
+            <p>Американская полуавтоматическая винтовка, применявшаяся во Второй мировой войне.</p>
+            <a class="read" href="#">Подробнее»</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="media"><img src="assets/mp40.jpg" alt="MP40"></div>
+          <div class="card-body">
+            <h3>MP40</h3>
+            <p>Немецкий пистолет-пулемёт времён Второй мировой войны, простой и массовый в производстве.</p>
+            <a class="read" href="#">Подробнее»</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="sep">
+    <footer>Щуров Денис, группа 2</footer>
+  </main>
+
 </body>
 </html>
